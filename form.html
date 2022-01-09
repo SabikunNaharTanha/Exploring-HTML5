@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="audio-video.html">Media</a></li>
+                <li><a href="semantic.html">semantic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="">
+        <p>Full Name:<input type="text" name="Name" placeholder="Enter You Name" id=""></p>
+        <p>E-Mail: <input type="text" name="email" id="" placeholder="Enter your Email"></p>
+        <fieldset>
+            <legend>Select You department:</legend>
+            <p>
+                <label for="cse">
+                    <input type="radio" name="department" id="cse">CSE
+                </label>
+            </p>
+            <p>
+                <label for="eee">
+                    <input type="radio" name="department" id="eee">EEE
+                </label>
+            </p>
+            <p>
+                <label for="te">
+                    <input type="radio" name="department" id="te">TE
+                </label>
+            </p>
+            <p>
+                <label for="en">
+                    <input type="radio" name="department" id="en">ENGLISH
+                </label>
+            </p>
+            <p>
+                <label for="b">
+                    <input type="radio" name="department" id="b">BANGLA
+                </label>
+            </p>
+
+        </fieldset>
+        <br><br>
+
+        <label for="id">Select you Student Id:</label>
+        <br> <br>
+        <select name="studentid" id="id">
+            <option value="181002068">181002068</option>
+            <option value="181002069">181002069</option>
+            <option value="181002070">181002070</option>
+            <option value="181002071">181002071</option>
+            <option value="181002072">181002072</option>
+        </select>
+        <br><br><br>
+
+
+
+
+
+        <fieldset>
+            <legend>Select Your Reasearch Area:</legend>
+            <p><label for="Networking"><input type="checkbox" name="Research" id="Networking">Networking</label></p>
+            <p><label for="AI"><input type="checkbox" name="Research" id="AI">Artificial Intelligence</label></p>
+            <p><label for="Robo"><input type="checkbox" name="Research" id="Robo">Robotics</label></p>
+            <p><label for="ML"><input type="checkbox" name="Research" id="ML"></label>Machine Learning</p>
+            <p><label for="BD"><input type="checkbox" name="Research" id="BD"></label>Big Data</p>
+
+        </fieldset>
+        <p>Comment if you work in other Research Areas:
+            <br>
+            <textarea name="Comment" id="" cols="30" rows="10"></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
